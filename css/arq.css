@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(48, 3, 70);
+  }
+
+article{
+    background-image: url(/img/ba.webp);
+    width: 100%;
+    height: 600px;
+}
+  
+  #gameContainer {
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  
+  #player {
+    width: 180px;
+    height: 170px;
+    background-image: url(/img/raposita.png);
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+  
+  .obstacle {
+    width: 65px;
+    height: 80px;
+    background-image: url(/img/galinha.png);
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #obstacle1 {
+    left: 200px;
+  }
+  
+  #obstacle2 {
+    left: 400px;
+  }
+  
